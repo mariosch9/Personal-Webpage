@@ -1,0 +1,101 @@
+.block{
+  background-color:black;
+  opacity:.7;
+  padding:10px;
+  width:50%;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:10px;
+  text-align: center;
+      
+}
+ul{
+  padding: 0;
+  list-style-type: none;
+  margin: 0
+   }
+li{
+  display: inline-block;
+  }
+a:hover {
+    background-color: #01FF70;
+}
+
+.h3{text-align: center;}
+
+.list{
+  font-family:Lobster;
+  font-size:30px;
+  margin-bottom:10%
+}
+a{
+  color:white
+}
+
+body{
+  background-color:black;
+  font-family:Lobster;
+  color:white;
+  margin: 0;
+  padding: 0
+}
+h1{
+ 
+  font-size:4.5em;
+  color:green;
+}
+.btn-default{
+  background-color:black;
+    color:green;
+  border-color:black;
+  font-size:1.7em;
+}
+
+
+.pageOne{
+  background:url("http://www.intrawallpaper.com/static/images/Wallpaper-HD-11F1_ahjQKqx.jpg");
+  background-size:cover;
+  height:100vh;
+  min-height: 600px;
+  }
+.pageTwo{
+  background:url("http://idealfuture.com/wp-content/uploads/2015/09/Image-7-WinDroid-RAM-Upgrade.jpg");
+  background-size:cover;
+  height:800px;
+  padding-top:5%;
+}
+p{
+  font-size:2.2em;
+  
+}
+
+.me{
+  height:400px;
+  margin-left: 50px;
+}
+.pageThree{
+  background:url("https://s-media-cache-ak0.pinimg.com/originals/ac/55/38/ac553898f84d74bfc2a71a7e18e365f3.jpg");
+  background-size:cover;
+  padding-top:5%;
+  height:100vh;
+}
+
+.pageFive{
+  background:url("http://dagmodern.com/images/gallery-360.jpg");
+  background-size:cover;
+  height:100vh;
+
+  
+}
+.paddingTop{
+  padding-top:2%;
+  padding-bottom:2%;
+
+}
+    
+#gallery{
+  display: inline-block;
+  width: 33%;
+  
+}
+

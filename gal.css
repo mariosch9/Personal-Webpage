@@ -1,0 +1,288 @@
+body
+{
+  font-family:'Lobster';
+  background-size: 100% 100%;
+  
+}
+
+
+.body4
+{
+  background: url('https://i2-prod.mirror.co.uk/incoming/article9502805.ece/ALTERNATES/s482b/PROD-Christmas-Glowing-fireplace-hearth-tree-Red-stockings-Gifts-and-decorations.jpg');
+  background-size: 100% 100%;
+  
+}
+.body5
+{
+  background: url('https://skisantafe.com/wp-content/uploads/2014/06/snowvista1-1845x740.png');
+  background-size: 100% 100%;
+}
+.body5 .captinfo
+{
+color: rgb(66, 134, 244);
+ 
+ 
+}
+p
+{
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.body4 .captinfo
+{
+color: rgb(242, 25, 14);
+ 
+ 
+}
+
+
+header
+{
+  background: rgba(66, 134, 244, 0.3);
+
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 5px solid #F0F0F0;
+  z-index: 100;
+  color: #0F0;
+  font-family: Lobster;
+  font-size: 20px;
+}
+
+
+nav
+{
+  float: right;
+  padding: 20px;
+}
+
+
+a
+{
+  color: #00ffff;
+}
+
+@media only screen and (max-width: 640px)
+{
+  body
+  {
+    background: url('img/bckg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  header
+  {
+    position: fixed;
+  }
+  #menu-icon
+  {
+    display: inline-block;
+    color: #0F0;
+    width: 100%
+  }
+  
+  
+}
+
+footer
+{
+  width: 100%;
+  height: 40px;
+  background: rgba(66, 134, 244, 0.3);
+  color: #000;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+
+
+
+.bdy
+{
+  margin: auto;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.title
+{
+  font-size: 35px;
+  color: #0F0;
+}
+.intro
+{
+  font-size: 25px;
+  color: #e6e6e6;
+  background: rgba(0,0,0,0.6);
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  border: 5px solid #C0C0C0;
+}
+
+#gallery
+{
+ 
+  width: auto;
+  text-align: center;
+  border-radius: 100px;
+  padding: 15px;
+}
+#gallery div { 
+		display: inline-block; width:30%; margin: 10; padding:5;
+		
+}
+
+#gallery div img { 
+text-align: center; margin:10; padding:10;
+-webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+         transition: width 1s, height 1s, transform 1s;
+		 -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 185, 233, .75);
+box-shadow: 0px 0px 15px 5px rgba(0, 185, 233, .75);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+#gallery div img:hover {
+	width: 300px; height: 300px;
+ border: 2px solid white;
+    border-radius: 25px;
+-webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);	
+	
+    
+}
+.second
+{
+  text-align: center;
+  width: auto;
+  border-radius: 75px;
+  padding: 20px;
+}
+.third
+{
+  text-align: center;
+  width: auto;
+  border-radius: 40px;
+  padding: 25px;
+}
+.bnr
+{
+  width: 175px;
+  height: 175px;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background: rgba(0,0,0,0.6);
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+
+
+.button {
+    border: none;
+    
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
